@@ -1,0 +1,150 @@
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #FFFFFF;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    color: #000000;
+    line-height: 1.45;
+}
+
+.navbar {
+    background-color: #A37541;
+}
+
+.navbar-brand img {
+    height: 70px;
+    width: 120px;
+}
+
+.nav-link {
+    margin: 20px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.carousel-item img {
+    height: 500px;
+}
+
+.kitchen-section {
+    padding: 80px;
+}
+
+.sub-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: .5em;
+}
+
+.gallery {
+    position: relative;
+}
+
+.image {
+    display: block;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.gallery:hover .overlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.gallery-text {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* reservation css start */
+
+#reservation-section .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+#reservation-section input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#reservation-section label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+#reservation-section .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+#reservation-section .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#reservation-section .btn:hover {
+    background-color: #45a049;
+}
+
+#reservation-section span.price {
+    float: right;
+    color: grey;
+}
+
+#reservation-section .reservation-image {
+    width: 100%;
+    height: 713px;
+}
+
+
+/* reservation end */
